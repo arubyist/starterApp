@@ -19,7 +19,7 @@ Very easy to set up, and to use in RSpec's testing process.
 
 You use this to run integration tests. It can also be used for end-to-end testing as well. 
 
-It can be used out of the box with RSpec. For the purposes of this starter app, all context is within RSpec framework, instead of Cucumber, Test::Unit, Minitest, Minitest::Spec, and etc. It is meant to be agnoistic, and fairly powerful too to use. 
+It can be used out of the box with RSpec. For the purposes of this starter app, all context is within RSpec framework, instead of Cucumber, Test::Unit, Minitest, Minitest::Spec, and etc. It is meant to be agnoistic, and fairly powerful to use. 
 
 When it comes to writing test, you put your Capybara specs in spec/features folders. 
 
