@@ -1,4 +1,4 @@
-# Test Gems Starter App
+# Starter App
 
 Meant to be a "ready-made" starter app to which you can use to spin off for your own projects, and/or learn from so you can do it for yourself as well! =)
 
@@ -23,7 +23,7 @@ It can be used out of the box with RSpec. For the purposes of this starter app, 
 
 When it comes to writing test, you put your Capybara specs in spec/features folders. 
 
-There are a lot of cheatsheets out there to keep around for Capybara's DSL. Here's a quick one which I just googled randomly for right now: [Capybara cheatsheet] (http://www.railscook.com/recipes/capybara-cheat-sheet/) 
+There are a lot of cheatsheets out there to keep around for Capybara's DSL. Here's a quick one which I just googled randomly for right now: [Capybara cheatsheet](http://www.railscook.com/recipes/capybara-cheat-sheet/) 
 
 Suffice to say, there's a lot about Capybara out there. Spin off your apps, and explore! It doesn't have to be serious. Just go and have fun breaking apps and learning in the process. =) 
 
@@ -31,7 +31,7 @@ Suffice to say, there's a lot about Capybara out there. Spin off your apps, and 
 
 It's meant for behavior-driven development (BBD). You write scenarios and test them. 
 
-[Here's further information] (rspec.info), check it out!
+[Here's further information](rspec.info), check it out!
 
 #### [Guard](https://github.com/guard/guard) 
 
