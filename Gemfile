@@ -40,7 +40,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
 
    gem 'database_cleaner'
-   gem 'guard'
+   gem 'guard-rspec'
    gem 'rspec-rails'
    gem 'capybara'
    gem 'factory_girl_rails'
