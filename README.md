@@ -31,7 +31,7 @@ Suffice to say, there's a lot about Capybara out there. Spin off your apps, and 
 
 It's meant for behavior-driven development (BBD). You write scenarios and test them. 
 
-[Here's further information](rspec.info), check it out!
+[Here's further information](http://rspec.info), check it out!
 
 As mentioned in **changelog**, you set up the default files by running `rails g rspec:install`. Also have deleted the default test directory as it's not considered good practice to have both the default Rails testing libraries, and rspec as well. 
 
