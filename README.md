@@ -47,9 +47,14 @@ As mentioned in **changelog** at bottom, the [guard-rspec](https://github.com/gu
 
 Meant to keep your database clean. Especially useful when testing. It has three cleaning strategies: truncation, transaction, and deletion.
 
+As mentioned in **changelog**, the default file is set up within `spec/support` directory, and adjusted a setting in `spec/rails_helper.rb` to turn off defaults Rails management. 
+
 
 **Changelog**
 
 April 13 - Have added guard-rspec plugin and set up default configuration file
 
 April 15 - Have run `rails g rspec:install`. It sets up default files of `.rspec`, `spec`, `spec/spec_heper.rb`, and `spec/rails_helper.rb`. 
+
+Also have added database_cleaner support file, and changed `config.use_transactional_fixtures = true` to `config.use_transactional_fixtures = false`. This simply tells RSpect to tell Rails not to manager the transactions. 
+
