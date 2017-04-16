@@ -33,12 +33,14 @@ It's meant for behavior-driven development (BBD). You write scenarios and test t
 
 [Here's further information](rspec.info), check it out!
 
+As mentioned in **changelog**, you set up the default files by running `rails g rspec:install`. Also have deleted the default test directory as it's not considered good practice to have both the default Rails testing libraries, and rspec as well. 
+
 
 #### [Guard](https://github.com/guard/guard) 
 
 Used to automate repetitive tasks. In context of texting, it's super useful as you don't keep to type 'bundle exec rspec.' It needs a Guardfile, and it has be set up. 
 
-As mentioned in changelog at bottom, the [guard-rspec](https://github.com/guard/guard/wiki/Guard-Plugins#popular--featured--well-supported) plugin has been added and default configuration has been set up. You can now run 'bundle exec guard' and watch its magic =) 
+As mentioned in **changelog** at bottom, the [guard-rspec](https://github.com/guard/guard/wiki/Guard-Plugins#popular--featured--well-supported) plugin has been added and default configuration has been set up. You can now run 'bundle exec guard' and watch its magic =) 
 
 
 #### [Database Cleaner](https://github.com/DatabaseCleaner/database_cleaner) 
@@ -46,6 +48,8 @@ As mentioned in changelog at bottom, the [guard-rspec](https://github.com/guard/
 Meant to keep your database clean. Especially useful when testing. It has three cleaning strategies: truncation, transaction, and deletion.
 
 
-**Changelog **
+**Changelog**
 
 April 13 - Have added guard-rspec plugin and set up default configuration file
+
+April 15 - Have run `rails g rspec:install`. It sets up default files of `.rspec`, `spec`, `spec/spec_heper.rb`, and `spec/rails_helper.rb`. 
